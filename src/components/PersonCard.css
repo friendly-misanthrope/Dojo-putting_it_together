@@ -5,3 +5,23 @@
     padding: 0.25rem;
     color: lightgray;
   }
+
+  /* button reset */
+  button {
+    writing-mode: inherit;
+    font-style: inherit;
+    text-rendering: inherit;
+    border-width: 0;
+  }
+
+  button {
+    padding: 0.25rem;
+    border-radius: 6px;
+    background-color: lightgray;
+  }
+
+  button:hover {
+    background-color: rgb(127, 127, 127);
+    color: white;
+    transition: 300ms;
+  }
